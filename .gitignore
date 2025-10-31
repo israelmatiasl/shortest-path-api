@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build output
+/bin/
+/build/
+/dist/
+/out/
+*.out
+
+# Go compiled objects, archives and profiling
+*.o
+*.a
+coverage.out
+profile.out
+pprof/
+
+# Dependency/vendor (uncomment if you DO NOT commit vendor/)
+vendor/
+
+# Go workspace / tools (do NOT ignore go.mod or go.sum)
+go.work
+
+# Editor/IDE
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Logs and temp
+*.log
+tmp/
+temp/
+*.swp
+*~
+
+# Docker overrides
+docker-compose.override.yml
